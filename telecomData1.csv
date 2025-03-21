@@ -1,0 +1,8 @@
+Brand,Plan Name,Monthly Cost (USD),Data Allowance,Talk Time,SMS,Max Download speed(Mbps),Max Upload Speed(Mbps),Cloud Storage,Hotspot Data(GB),Plan Description
+StraightTalk,Platinum unlimited,65,Unlimited,Unlimited,Unlimited,195,31,Yes,Unlimited,"Platinum plan under Straight talk brand with unlimited data, talktime, SMS access along with unlimited HOTSPOT data"
+StraightTalk,Gold Unlimited,55,Unlimited,Unlimited,Unlimited,195,31,Yes,30,"Gold plan under Straight talk brand with unlimited data, talktime and SMS access along with 30 GB Hotspot access"
+StraightTalk,Silver Unlimited,45,Unlimited,Unlimited,Unlimited,149,25,No,10,"Silver plan under Straight talk brand with unlimited data, talktime and SMS access along with 10 GB Hotspot access"
+StraightTalk,Bronze plan,35,Unlimited,Unlimited,Unlimited,149,25,No,0,"Silver plan under Straight talk brand with unlimited data, talktime and SMS access along with 10 GB Hotspot access"
+TotalWireless,Total5G+ Unlimited,65,Unlimited,Unlimited,Unlimited,195,31,No,Unlimited,"Total 5g+ unlmited plan under Total Wireless Brand with unlimited data, talktime, SMS access along with unlimited HOTSPOT data"
+TotalWireless,Gold Unlimited,55,Unlimited,Unlimited,Unlimited,195,31,No,15,"Total 5g unlmited plan under Total Wireless Brand with unlimited data, talktime, SMS access along with 15 GB HOTSPOT data"
+TotalWireless,Silver Unlimited,40,Unlimited,Unlimited,Unlimited,149,25,No,5,"Total 5g+ unlmited plan under Total Wireless Brand with unlimited data, talktime, SMS access along with unlimited HOTSPOT data"

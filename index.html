@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telecom Plan Finder</title>
+</head>
+<body>
+    <h1>Find the Best Telecom Plan</h1>
+    <form method="POST">
+        <label>Budget (USD):</label>
+        <input type="number" name="budget" step="any" required><br><br>
+        
+        <label>Data Required (e.g., 10GB, Unlimited):</label>
+        <input type="text" name="data_required" required><br><br>
+        
+        <label>SMS Required (e.g., 500, Unlimited):</label>
+        <input type="text" name="sms_required" required><br><br>
+        
+        <label>Download Speed (Mbps):</label>
+        <input type="text" name="download_speed"><br><br>
+        
+        <label>Upload Speed (Mbps):</label>
+        <input type="text" name="upload_speed"><br><br>
+        
+        <label>Cloud Storage (Yes/No):</label>
+        <input type="text" name="cloud_storage" required><br><br>
+        
+        <label>Hotspot Data (e.g., 5GB, Unlimited):</label>
+        <input type="text" name="hotspot_data" required><br><br>
+        
+        <input type="submit" value="Find Plans">
+    </form>
+
+    {% if response %}
+    <h2>Recommended Plans:</h2>
+    <pre>{{ response }}</pre>
+    {% endif %}
+</body>
+</html>
